@@ -29,6 +29,9 @@ public class ActividadPrincipal extends AppCompatActivity {
                 if (!caja1.equals("") && !caja2.equals("")) {
                     if (!caja1.equals("uac123") && !caja2.equals("12345678")) {
                         Toast.makeText(ActividadPrincipal.this, "Usuario o contraseña incorrectos", Toast.LENGTH_LONG).show();
+                    }else{
+                        Intent ingresar = new Intent(ActividadPrincipal.this, SegundaActividad.class);
+                        startActivity(ingresar);
                     }
                 }else {
                     Toast.makeText(ActividadPrincipal.this, "Es necesario ingresar un número", Toast.LENGTH_LONG).show();
@@ -37,9 +40,5 @@ public class ActividadPrincipal extends AppCompatActivity {
             }
         });
     }
-    //metodo boton finalizar
-    public void Ingresar( View View){
-        Intent ingresar = new Intent(this, SegundaActividad.class);
-        startActivity(ingresar);
-    }
+
 }
