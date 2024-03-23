@@ -28,7 +28,7 @@
             android:text="Usuario"
             android:textStyle="normal"
             android:textColor="#FFFFFF"
-            android:translationX="-155dp"
+            android:translationX="-140dp"
             android:translationY="330dp"/>
         <EditText
             android:inputType=""
@@ -46,7 +46,7 @@
             android:text="Contraseña"
             android:textStyle="normal"
             android:textColor="#FFFFFF"
-            android:translationX="-155dp"
+            android:translationX="-125dp"
             android:translationY="350dp"/>
         <EditText
             android:layout_width="match_parent"

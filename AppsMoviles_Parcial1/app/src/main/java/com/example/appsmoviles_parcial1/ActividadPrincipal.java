@@ -34,7 +34,7 @@ public class ActividadPrincipal extends AppCompatActivity {
                         startActivity(ingresar);
                     }
                 }else {
-                    Toast.makeText(ActividadPrincipal.this, "Es necesario ingresar un número", Toast.LENGTH_LONG).show();
+                    Toast.makeText(ActividadPrincipal.this, "Por favor, completa todos los campos", Toast.LENGTH_LONG).show();
                 }
 
             }
